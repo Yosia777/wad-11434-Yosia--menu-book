@@ -1,0 +1,13 @@
+.content{
+	font-size:22px;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	background-color:#F44336;
+	padding:16px;
+	color:#F9F6F3;
+}
+.Makan{
+	width:100%;
+}
+	
