@@ -1,13 +1,83 @@
-.content{
-	font-size:22px;
-	display:flex;
-	flex-direction:row;
-	justify-content:center;
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.Judul {
+	font-family: Barlow;
 	background-color:#F44336;
-	padding:16px;
 	color:#F9F6F3;
+	text-align:center;
+    margin: 0;
+	gap: 16px;
+    padding: 16px;
+	width: 100%;
 }
-.Makan{
-	width:100%;
+
+.Judul h1 {
+    margin: 0;
 }
-	
+
+.Makan {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+	potition: relative;
+}
+
+.Menu-Judul {
+    margin-top: 64px;
+	margin-right: 16px;
+	margin-bottom: 64px;
+	margin-left: 16px;
+	gap: 8px;
+    color: #424242;
+    text-align: center;
+}
+
+.Menu-Judul h1 {
+    font-size: 32px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Menu-Judul h2 {
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: normal;
+    color: #666;
+    text-align: center;
+}
+
+.Menu-Judul p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #999;
+    text-align: center;
+}
+
+.Semua {
+	display: flex;
+	width: 100%;
+	gap: 32px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.Menu img {
+    width: 100%;
+}
+
+.Menu {
+	flex: 1;
+    display: inline-block;
+    width: 250px;
+    background-color: #ffffff;
+}
+
+h3 {
+    margin: 10px 0;
+}
